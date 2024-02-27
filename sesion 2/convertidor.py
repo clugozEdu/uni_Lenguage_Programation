@@ -1,0 +1,7 @@
+print("Bienvenido al convertidor de monedas")
+print("Dime tu nombre")
+name = input()
+print(f"Hola {name}, dime la cantidad en cordobas")
+cant_cordoba = float(input())
+print(f"Monto en cordobas: {cant_cordoba}")
+print(f"{cant_cordoba} cordobas son {cant_cordoba / 36.6} dolares")
